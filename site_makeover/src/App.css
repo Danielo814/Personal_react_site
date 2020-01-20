@@ -49,3 +49,7 @@ a:hover {
 .intro-line-spacing {
   margin-bottom: 5px;
 }
+
+.arrow-down {
+  margin-top: 80px !important;
+}
