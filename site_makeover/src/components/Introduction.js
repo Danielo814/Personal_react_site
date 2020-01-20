@@ -7,6 +7,7 @@ const Introduction = () => {
         <p className="intro-line-spacing">Hello, i'm Daniel Ojeda.</p>
         <p className="intro-line-spacing">I'm a web developer</p>
         <p>living in San francisco.</p>
+        <i class="angle down icon arrow-down"></i>
       </div>
     </div>
   );
