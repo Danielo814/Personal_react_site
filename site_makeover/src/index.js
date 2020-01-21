@@ -4,16 +4,32 @@ import "./App.css";
 import Logo from "./components/Logo";
 import MenuItems from "./components/MenuItems";
 import Introduction from "./components/Introduction";
+import Project from "./components/Project";
 
 class App extends React.Component {
   render() {
     return (
-      <div>
+      <div className="container">
         <div className="menu-container">
           <Logo />
           <MenuItems />
         </div>
         <Introduction />
+        <div id="project-container">
+          <Project
+            project_name="Converter"
+            project_description="See temperatures in fahrenheit and celcius."
+          />
+          <Project
+            project_name="Reminders App"
+            project_description="See list of reminders and mark as complete or incomplete."
+          />
+          <Project
+            project_name="Timer"
+            project_description="Count down from a time specified by the user"
+          />
+          <Project project_name="Writing App" project_description="" />
+        </div>
       </div>
     );
   }
