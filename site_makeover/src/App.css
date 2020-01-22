@@ -73,14 +73,14 @@ a:hover {
 
 .description {
   font-family: "Roboto", sans-serif;
-  font-size: 25px;
+  font-size: 1.8vw;
   width: 340px;
   margin: 0 auto;
 }
 
 .project > :first-child {
   font-family: "Source Sans Pro", sans-serif;
-  font-size: 40px;
+  font-size: 3vw;
   color: #000d41;
 }
 
@@ -99,7 +99,4 @@ body {
 .container {
   height: 100%;
   width: 100%;
-  overflow-y: scroll;
-  scroll-behavior: smooth;
-  scroll-snap-type: y mandatory;
 }
