@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-scroll";
 
 const Introduction = () => {
   return (
@@ -8,11 +9,17 @@ const Introduction = () => {
         <p className="intro-line-spacing">I'm a web developer</p>
         <p>living in San francisco.</p>
         {/* <i class="angle down icon arrow-down"></i> */}
-        <div class="arrow-down">
-          <a className="arrow-transition" href="#project-container">
-            {" "}
+        <div className="arrow-down">
+          <Link
+            activeClass="active"
+            to="project-container"
+            spy={true}
+            smooth={true}
+            offset={-70}
+            duration={800}
+          >
             &#8964;
-          </a>
+          </Link>
         </div>
       </div>
     </div>
