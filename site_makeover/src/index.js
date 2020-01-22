@@ -28,7 +28,10 @@ class App extends React.Component {
             project_name="Timer"
             project_description="Count down from a time specified by the user"
           />
-          <Project project_name="Writing App" project_description="" />
+          <Project
+            project_name="Image Display"
+            project_description="Displays 10 images based on a search term entered by the user. Built with React."
+          />
         </div>
       </div>
     );
