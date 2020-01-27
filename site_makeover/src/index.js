@@ -32,7 +32,10 @@ class App extends React.Component {
             project_name="Image Display"
             project_description="Displays 10 images based on a search term entered by the user. Built with React."
           />
-          <Project project_name="Song Selector" />
+          <Project
+            project_name="Song Selector"
+            project_description="Displays a list of songs and allows user to select song to see more information. Built with React/Redux"
+          />
         </div>
       </div>
     );
