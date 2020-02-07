@@ -35,7 +35,10 @@ class App extends React.Component {
             project_name="Song Selector"
             project_description="Displays a list of songs and allows user to select song to see more information. Built with React/Redux"
           />
-          <Project project_name="Video Generator" />
+          <Project
+            project_name="Video Generator"
+            project_description="Takes a search term and renders 5 relateable youtube videos using the youtube API. Built with React/Redux"
+          />
         </div>
       </div>
     );
